@@ -36,8 +36,8 @@ fi
 # Check and download helper scripts if running standalone
 if [ ! -f "scripts/chroot_install.sh" ] || [ ! -f "scripts/configs/limine.conf.template" ] || [ ! -f "scripts/configs/zram-generator.conf.template" ]; then
     echo "[INFO] File di supporto non rilevati in locale. Download da GitHub in corso..."
-    read -p "Inserisci il tuo username GitHub [default: y3v]: " GH_USER
-    GH_USER=${GH_USER:-y3v}
+    read -p "Inserisci il tuo username GitHub [default: mruin]: " GH_USER
+    GH_USER=${GH_USER:-mruin}
     
     mkdir -p scripts/configs
     

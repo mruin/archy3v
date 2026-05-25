@@ -26,7 +26,7 @@ Esegui i seguenti comandi per avviare l'installazione. Lo script `install.sh` sc
 
 ```bash
 # Scarica lo script di installazione principale
-curl -L https://raw.githubusercontent.com/tuo-username/archy3v/main/install.sh -o install.sh
+curl -L https://raw.githubusercontent.com/mruin/archy3v/main/install.sh -o install.sh
 
 # Rendi lo script eseguibile ed avvialo
 chmod +x install.sh
@@ -34,7 +34,7 @@ chmod +x install.sh
 ```
 
 > [!IMPORTANT]
-> Ricorda di sostituire `tuo-username` nel link sopra con il tuo reale nome utente GitHub dopo aver caricato lo script sul tuo account.
+> Ricorda di verificare che la tua repository `archy3v` su GitHub sia pubblica per consentire allo script di scaricare autonomamente gli altri file.
 
 ---
 
